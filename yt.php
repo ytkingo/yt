@@ -68,7 +68,7 @@ jwplayer(\"player\").setup({
       sources: [
 	{'file':'https://proxyscript.herokuapp.com/getvideo.php?videoid=".$video."&type=best', 'label':'Best', 'type': 'mp4'}
          ],
-    image: \"https://proxyscript.herokuapp.com/getimage.php?videoid=IVdJej-8uo4".$video."\",
+    image: \"https://proxyscript.herokuapp.com/getimage.php?videoid=".$video."\",
 	abouttext: \"PlayerAMK YouTube Fix\",
 	aboutlink: \"http://www.playeramk.com/\",
 	stretching: \"fill\",
