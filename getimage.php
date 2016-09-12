@@ -32,7 +32,7 @@ if(isset($_REQUEST['videoid'])) {
         exit;
 }
 
-$thumbnail_url="http://i1.ytimg.com/vi/".$my_id."/default.jpg"; // make image link
+$thumbnail_url="http://i1.ytimg.com/vi/".$my_id."/maxresdefault.jpg"; // make image link
 header("Content-Type: image/jpeg"); // set headers
 readfile($thumbnail_url); // show image
 
